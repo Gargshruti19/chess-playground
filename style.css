@@ -1,0 +1,35 @@
+body{
+    background-color: darksalmon;
+}
+.container{
+    display: grid;
+    height: 720px;
+    width: 720px;
+    background-color: black;
+    gap: 1px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin: auto;
+    box-shadow: 20px 30px 40px black;
+}
+.container .brown, .white{
+    box-shadow: 3px 9px 20px 5px black;
+}
+.brown{
+    background-color: black;
+    height: 90px;
+    width: 90px;
+}
+.white{
+    background-color: white;
+    height: 90px;
+    width: 90px;
+}
+img{
+    box-shadow: 5px 7px 10px black;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    object-fit: cover;
+    border-radius: 60%;
+}
